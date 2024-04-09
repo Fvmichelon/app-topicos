@@ -1,0 +1,53 @@
+.main-page {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .title {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #f39c12; /* Orange */
+  }
+  
+  .recent-activity-text {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .activity-row {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .activity-card {
+    width: 200px;
+    height: 150px;
+    background-color: #fff;
+    margin: 0 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .action-buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+  }
+  
+  .hyperlink-button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    background-color: transparent;
+    color: #3498db; /* Light blue */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .hyperlink-button:hover {
+    background-color: #3498db; /* Light blue */
+    color: #fff;
+  }
+  
