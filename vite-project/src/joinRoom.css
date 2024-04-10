@@ -1,0 +1,43 @@
+.join-room {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .join-room h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .join-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .join-form label {
+    margin-bottom: 10px;
+  }
+  
+  .join-form input[type="text"],
+  .join-form input[type="password"] {
+    width: 300px;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .join-form button {
+    padding: 10px 20px;
+    background-color: #3498db; /* Light blue */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .join-form button:hover {
+    background-color: #2980b9; /* Darker shade of light blue */
+  }
+  
