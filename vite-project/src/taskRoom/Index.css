@@ -285,3 +285,109 @@
     background-color: #2980b9;
   }
 
+  .activity-log {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .activity-log h2 {
+    font-size: 20px;
+  }
+  
+  .filter {
+    margin-bottom: 10px;
+  }
+  
+  .filter label {
+    margin-right: 10px;
+  }
+  
+  .filter select {
+    padding: 5px;
+  }
+  
+  .activities {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .activities li {
+    margin-bottom: 10px;
+  }
+  
+  .activities li span:first-child {
+    font-weight: bold;
+  }
+  
+  .activities li span:last-child {
+    margin-left: 5px;
+  }
+
+  .notification-center {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .notification-center h2,
+  .notification-center h3 {
+    font-size: 20px;
+  }
+  
+  .notification-settings,
+  .notifications {
+    margin-bottom: 20px;
+  }
+  
+  .notification-settings label,
+  .notifications li {
+    margin-bottom: 10px;
+  }
+  
+  .notification-settings input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  .footer-section {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .footer-section .links {
+    margin-bottom: 20px;
+  }
+  
+  .footer-section .links a {
+    color: #fff;
+    margin-right: 20px;
+    text-decoration: none;
+  }
+  
+  .footer-section .feedback h3 {
+    margin-bottom: 10px;
+  }
+  
+  .footer-section .feedback textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .footer-section .feedback button {
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .footer-section .feedback button:hover {
+    background-color: #2980b9;
+  }
+
+  

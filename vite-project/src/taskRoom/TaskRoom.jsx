@@ -6,8 +6,7 @@ import TaskDetails from './TaskDetails';
 import DiscussionSection from './DiscussionSection';
 import FilesSection from './FilesSection';
 import ParticipantList from './ParticipantList';
-import ActivityLog from './ActivityLog';
-import Footer from './Footer';
+import ActionsLog from './ActionsLog'; 
 
 const TaskRoom = () => {
   return (
@@ -23,7 +22,7 @@ const TaskRoom = () => {
           <DiscussionSection />
           <FilesSection />
           <ParticipantList />
-          <ActivityLog />
+          <ActionsLog />
         </div>
       </div>
       <Footer />
