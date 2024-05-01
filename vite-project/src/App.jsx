@@ -8,14 +8,15 @@ import MainPage from './mainPage'
 import RoomRegister from '../../roomRegister'
 import JoinRoom from './joinRomm'
 import ManageProfile from './manageProfile'
-import SearchTaskRooms from './SearchTaskRooms'
+import TaskRoom from './taskRoom/TaskRoom'
+import SearchTaskRooms from './SearchAllTaskRooms'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-      <SearchTaskRooms/>
+      <ManageProfile/>
     </>
   )
 }

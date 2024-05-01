@@ -1,5 +1,5 @@
 import React from 'react';
-import './searchTaskRooms.css';
+import './SearchAllTaskRooms.css';
 
 const SearchTaskRooms = () => {
   return (
